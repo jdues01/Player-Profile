@@ -1,0 +1,153 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.dropbtn {
+  background-color: #ff0000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #317ab7;
+}
+
+.fa-twitter {
+	width: 50px;
+  color: #1DA1F2;
+}
+
+.fa-twitter:hover {
+  color:#657886
+}
+
+.fa-twitter:active {
+  color: gold;
+}
+.emailbtn {
+  background-color: #ff0000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.emailbtn:hover {
+  background-color: #2196F3;
+}
+
+.emailcoach {
+  background-color: #ff0000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.emailcoach:hover {
+  background-color: #2196F3;
+}
+
+.gameschedule {
+  background-color: #ff0000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.gameschedule:hover {
+  background-color: #2196F3;
+}
+
+.emailAAU {
+  background-color: #ff0000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.emailAAU:hover {
+  background-color: #2196F3;
+}
+
+img {
+  width:400px;
+  height: 300px;
+}
+
+img.schedule {
+  width: 375px;
+  height: 400px;
+}
+
+img.mackenzie {
+  width: 300px;
+  height: 300px;
+}
+
+img.mamie {
+  width: 375px;
+}
+
+img.kenna {
+  width: 300px;
+}
+
+img.ava {
+  width: 300px;
+}
+
+img.audra {
+  width: 375px;
+}
+
+img.natalie {
+  width: 300px;
+}
